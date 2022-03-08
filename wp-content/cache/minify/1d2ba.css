@@ -288,7 +288,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 20px 0;
+  max-width: 70% !important;
+  margin: 20px auto;
   color: #262626;
   font-family: Marcellus, sans-serif;
   font-weight: 400;
