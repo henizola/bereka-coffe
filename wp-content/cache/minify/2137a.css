@@ -21274,7 +21274,7 @@ h6 {
   max-width: 70%;
   margin: 20px auto !important;
   text-align: justify !important;
-  text-align-last: center !important ;
+  text-align-last: left !important ;
 }
 
 @media screen and (max-width: 600px) {
