@@ -21271,10 +21271,10 @@ div.wpcf7 .wpcf7-submit:disabled {
 }
 
 h6 {
-  max-width: 70%;
+  max-width: 80%;
   margin: 20px auto !important;
   text-align: justify !important;
-  text-align-last: left !important ;
+  /* text-align-last: left !important ; */
 }
 
 @media screen and (max-width: 600px) {
