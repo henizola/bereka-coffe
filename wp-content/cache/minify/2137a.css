@@ -6,6 +6,20 @@
   content: " ";
   display: table;
 }
+
+
+.new-map{
+max-height:600px!important;
+}
+
+
+@media screen and (max-width:600px){
+  .new-map{
+    max-height:300px!important;
+    width:100vw!important;
+    }
+}
+
 .vc_row:after {
   clear: both;
 }
@@ -21291,8 +21305,5 @@ h6 {
 
 
 
-.self-centerd{
 
-  max-width:60%; margin:0 auto!important;justify;justify-content: space-between;
-}
 
