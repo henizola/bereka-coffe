@@ -20931,7 +20931,11 @@ div.wpcf7 .wpcf7-submit:disabled {
 .eltdf-restaurant-menu-list.eltdf-rml-with-featured-image
   .eltdf-rml-item-content {
   padding-left: 105px;
-  min-height: 67px;
+  min-
+    height: 44px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+;
   padding-top: 10px;
   box-sizing: border-box;
 }
@@ -21282,3 +21286,13 @@ h6 {
     max-width: 97vw !important;
   }
 }
+
+
+
+
+
+.self-centerd{
+
+  max-width:60%; margin:0 auto!important;justify;justify-content: space-between;
+}
+
