@@ -21307,3 +21307,13 @@ h6 {
 
 
 
+.map-container{
+  width:100vw;
+  height:45vh;
+}
+
+
+.news-image{
+  height:240px;
+  object-fit: cover;
+}
