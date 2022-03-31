@@ -21310,6 +21310,9 @@ h6 {
 .map-container{
   width:100vw;
   height:45vh;
+  display:grid;
+  grid-template-columns: 3fr 2fr;
+  padding:0 50px;
 }
 
 
