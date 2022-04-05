@@ -21304,16 +21304,34 @@ h6 {
 
 
 
-
+.mobile{
+  display:none;
+}
 
 
 .map-container{
   width:100vw;
   height:45vh;
   display:grid;
+
   grid-template-columns: 3fr 2fr;
   padding:0 50px;
 }
+@media screen and (max-width:600px){
+  .desktop{
+    display: none;
+  }
+  .mobile{
+    display: flex;
+    flex-direction: column;
+    padding:0;
+  }
+  .map-container{ grid-template-columns: 1fr;
+    margin-top:0;
+  border:2px solid red;
+  }
+}
+
 
 
 .news-image{
